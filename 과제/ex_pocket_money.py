@@ -5,11 +5,11 @@ java =int(input("자바 점수 입력 : "))
 python = int(input("파이썬 점수 입력 : "))
 jsp=int(input("JSP 점수 입력 : "))
 
-score=korean+math+english+java+python+jsp
+score=int(korean)+int(math)+int(english)+int(java)+int(python)+int(jsp)
 print("총합 : ", score)
 
 a=score/6
-print("평균 : ", a)
+print("평균 : ", round(a,  2))
 if a>=90:
     print("용돈 100000원")
 elif a>=80:
